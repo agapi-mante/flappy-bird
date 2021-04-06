@@ -37,7 +37,7 @@ pipe[0] = { //объекты отвечающий за блоки в игре
 
 let score = 0; //очки игрока
 
-let xPos = 10; //изначальное позиция птицы в игре
+let xPos = 10; //изначальная позиция птицы в игре
 let yPos = 150;
 let grav = 1.5;
 
@@ -67,7 +67,7 @@ function draw() {
 
  if (pipe[i].x == 5) {
  score++;
- score_audio.play(); //воиспроизведение аудио score
+ score_audio.play(); //воспроизведение аудио score
  }
  }
 
